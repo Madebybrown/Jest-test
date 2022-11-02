@@ -1,13 +1,20 @@
-game = {};
+let game = {
+    score: 0,
+    currentGame: [],
+    playerMoves: [],
+    choices: ["button1", "button2", "button3", "button4"],
+};
 
-newGame();
+module.exports = { game };
 
-addTurn();
+// newGame();
 
-showTurns();
+// addTurn();
 
-lightsOn();
+// showTurns();
 
-playerTurn();
+// lightsOn();
 
-showScore();
+// playerTurn();
+
+// showScore();
